@@ -13,6 +13,10 @@ require'nvim-tree'.setup {
         enable = true,
         update_cwd = true,
     },
+    view = {
+        width = 30,
+        side = 'left',
+    },
 }
 
 vim.api.nvim_set_keymap('n', '<C-q>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
