@@ -1,4 +1,4 @@
-# Установка плагинов (Lua)
+# Установка плагинов через packer (Для lua)
 
 ```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
