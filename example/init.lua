@@ -7,6 +7,12 @@ require('packer').startup(function()
     use 'kyazdani42/nvim-tree.lua'
 end)
 
-require'nvim-tree'.setup {}
+require'nvim-tree'.setup {
+    update_cwd = true,
+    update_focused_file = {
+        enable = true,
+        update_cwd = true,
+    },
+}
 
 vim.api.nvim_set_keymap('n', '<C-q>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
