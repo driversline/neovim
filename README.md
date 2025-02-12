@@ -25,12 +25,15 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 require('packer').startup(function()
     use 'kyazdani42/nvim-tree.lua'
 end)
-
 require'nvim-tree'.setup {
     update_cwd = true,
     update_focused_file = {
         enable = true,
         update_cwd = true,
+    },
+    view = {
+        width = 30,
+        side = 'left',
     },
 }
 
@@ -49,6 +52,10 @@ require'nvim-tree'.setup {
     update_focused_file = {
         enable = true,
         update_cwd = true,
+    },
+    view = {
+        width = 30,
+        side = 'left',
     },
 }
 
