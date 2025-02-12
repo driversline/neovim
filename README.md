@@ -29,7 +29,7 @@ require'nvim-tree'.setup {}
 vim.api.nvim_set_keymap('n', '<C-q>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 ```
 
-# Пример 2 (Автоматическое открытие содержимого папки + задержка 100)
+# Пример 2 (Автоматическое открытие содержимого папки с задержкой 100)
 
 ```bash
 require('packer').startup(function()
