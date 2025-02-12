@@ -17,6 +17,8 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 :PackerSync
 ```
 
+# Пути [тут](https://github.com/driversline/docs/blob/main/pwd/.config/README.md)
+
 # Пример 1 (Открытие содержимого папки на Ctrl + q)
 
 ```bash
